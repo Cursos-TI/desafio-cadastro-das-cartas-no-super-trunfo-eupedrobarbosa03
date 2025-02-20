@@ -70,7 +70,7 @@ int main(){
     float densidade_populacional_carta2 = (float) populacao_carta2 / area_carta2;
     float pib_por_capita_carta2 = (float) (pib_carta2 * 1000000000) / populacao_carta2;
 
-    printf("Letra do Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea: %.2fkm²\nPIB: %.2f\nQuantidade de Pontos Turísticos: %d\nDensidade Populacional: %.2f hab/km²\nPIB por Capita: %.2f reais.", letra_estado_carta2, codigo_carta2, nome_cidade_carta2, populacao_carta2, area_carta2, pib_carta2, qtd_pontos_turisticos_carta2, densidade_populacional_carta2, pib_por_capita_carta2);
+    printf("Letra do Estado: %c\nCódigo da Carta: %s\nCidade: %s\nPopulação: %d\nÁrea: %.2fkm²\nPIB: %.2f\nQuantidade de Pontos Turísticos: %d\nDensidade Populacional: %.2f hab/km²\nPIB por Capita: %.2f reais.\n", letra_estado_carta2, codigo_carta2, nome_cidade_carta2, populacao_carta2, area_carta2, pib_carta2, qtd_pontos_turisticos_carta2, densidade_populacional_carta2, pib_por_capita_carta2);
 
     
     return 0;
